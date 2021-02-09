@@ -1,0 +1,399 @@
+*
+    box-sizing: border-box
+    font-family: 'Manrope'
+body
+    margin: 0px 0px 0px 0px
+header
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    width: 100%
+    height: 72px   
+    .logo
+        height: 50px
+        width: 50px
+        &__img
+            width: 100%
+            height: 100%
+.container
+    width: 100%
+    padding: 0 165px 0 165px
+.header__wrapper
+    display: flex
+    align-items: center
+    margin-left: 35px
+    &-link
+        margin-left: 35px
+        color: black
+        font-weight: bold
+        cursor: pointer
+        text-decoration: none
+        &:first-child
+            margin-left: 0px
+.header__request
+    display: block
+    margin-left: auto
+    margin-right: 0
+    border: none
+    border-radius: 8px
+    width: 150px
+    height: 55px
+    color: #fff 
+    background: linear-gradient(90deg, #474A57 0%, rgba(255, 205, 131, 0) 51.54%, rgba(255, 187, 85, 0) 100%), #FE9A22
+    font-weight: bold
+    cursor: pointer
+    outline: none
+    transition: 0.2s all
+    &:hover
+        box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.35)
+        background: linear-gradient(90deg, rgba(255, 187, 85, 0) 0%, rgba(255, 205, 131, 0) 51.54%, #474A57 100%), #FE9A22
+
+.title
+    font-weight: 800
+    font-size: 72px
+    color: #18191F
+    z-index: 1
+    &-sub
+        font-size: 48px
+        &-portfolio
+            text-align: center
+.mainpage
+    background: url(../img/bg.png) center center/cover no-repeat
+    min-height: 794px
+    position: relative
+    z-index: 1
+    &__wrapper
+        margin-top: 168px
+        width: 730px
+        height: 290px
+        z-index: 1
+        &-btn
+            display: flex
+            align-items: center
+            justify-content: center
+            text-decoration: none
+            margin-top: 32px
+            border-radius: 8px
+            background: linear-gradient(90deg, #474A57 0%, rgba(255, 205, 131, 0) 51.54%, rgba(255, 187, 85, 0) 100%), #FE9A22
+            width: 196px
+            height: 62px
+            outline: none
+            border: none
+            font-size: 20px
+            text-align: center
+            color: #FFFFFF
+            cursor: pointer
+            transition: 0.2s all
+            &:hover
+                box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.45)
+                background: linear-gradient(90deg, rgba(255, 187, 85, 0) 0%, rgba(255, 205, 131, 0) 51.54%, #474A57 100%), #FE9A22
+        &-img
+            width: 800px
+            position: absolute
+            right: 0%
+            top: 50%
+            transform: translateY(-50%)
+            z-index: -1
+            cursor: pointer
+    
+.whoami
+    padding-top: 64px
+    padding-bottom: 64px
+    &__img
+        display: block
+        width: 540px
+        height: 540px
+        margin-right: 0px
+        filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.45))
+    &__wrapper
+        display: flex
+        align-items: center
+        margin-right: 0
+        color: #18191F
+        &-next
+            margin-top: 32px
+            &-link
+                color: #F2994A
+                font-weight: bold
+                cursor: pointer
+                text-decoration: none
+                transition: 0.5s all
+                &:hover
+                    color: #18191F
+    &__descr
+        padding-left: 48px
+        padding-right: 48px
+        margin-left: 30px
+        width: 540px
+        height: 340px
+.subtitle
+    font-size: 18px
+    margin-top: 32px
+    line-height: 32px
+.mt-8
+    margin-top: 8px
+    text-align: center
+
+.portfolio
+    min-height: 672px
+    padding-bottom: 64px
+    padding-top: 64px
+    display: flex
+    justify-content: center
+    &__wrapper
+        margin-top: 48px
+        display: flex
+        justify-content: center
+        flex-direction: row
+        flex-wrap: wrap
+        &-item
+            width: 350px
+            height: 150px
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-decoration: none
+            &:nth-child(n+4)
+                margin-top: 64px
+            &-img
+                height: 32px
+            &-title
+                margin-top: 24px
+                font-family: Manrope
+                font-style: normal
+                font-weight: 600
+                font-size: 24px
+                line-height: 32px
+                color: #18191F
+                text-align: center
+            &-subtitle
+                margin-top: 8px
+                font-family: Manrope
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 26px
+                text-align: center
+                color: #18191F
+
+.tal
+    text-align: left
+
+.feedback
+    position: relative
+    min-height: 900px
+    padding-top: 64px
+    padding-bottom: 80px
+    background: #D5FAFC
+    z-index: -1
+    &__quotemark
+        position: absolute
+        width: 143px
+        height: 120px
+        left: 165px
+        top: 64px
+        z-index: -2
+        img
+            opacity: 0.3
+            width: 100%
+            height: 100%
+    &__header
+        width: 445px
+        height: 104px
+        margin-top: 56px
+        margin-left: 95px
+    &__item 
+        position: absolute
+        left: 800px
+        top: 168px
+        width: 445px
+        min-height: 340px
+        padding: 32px
+        background: #FFFFFF
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07)
+        border-radius: 8px
+        &-second
+            position: absolute
+            left: 220px
+            top: 312px
+            padding: 32px
+            background: #FFFFFF
+            box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07)
+            border-radius: 8px
+        &-third
+            position: absolute
+            left: 735px
+            top: 570px
+            padding: 32px
+            background: #FFFFFF
+            box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07)
+            border-radius: 8px
+        &-logo
+            height: 40px
+            margin-bottom: 32px
+            &-img
+                height: 100%
+        &-quotemark
+            position: absolute
+            width: 16px
+            height: 14px
+            &-img   
+                opacity: 0.3
+                width: 100%
+                height: 100%
+        &-text
+            margin-left: 32px
+            width: 349px
+            font-weight: normal
+            font-size: 18px
+            line-height: 32px
+        &-author
+            margin-top: 24px
+            margin-left: 32px
+            font-weight: bold
+            font-size: 18px
+            line-height: 28px
+            span
+                display: block
+                font-weight: 500
+                font-size: 14px
+                line-height: 24px
+
+.price
+    min-height: 332px
+    padding-top: 80px
+    padding-bottom: 80px
+    display: flex
+    align-items: center
+    &__wrapper
+        height: 100%
+        display: flex
+        justify-content: space-between
+        &-title
+            display: flex
+            align-items: center
+        &-items
+            height: 100%
+            width: 540px
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            &-item
+                width: 255px
+                display: flex
+                align-items: center
+                &:nth-child(1)
+                    margin-bottom: 40px
+                &:nth-child(2)
+                    margin-bottom: 40px
+                &-img
+                    height: 48px
+                    margin-right: 16px
+                &-text
+                    font-family: Manrope
+                    font-style: normal
+                    font-weight: 800
+                    font-size: 28px
+                    line-height: 40px
+                    color: #18191F
+                    span
+                        display: block
+                        font-family: Manrope
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 26px
+
+.connect
+    min-height: 350px
+    background: #2EC5CE
+    padding: 68px 0 68px 0
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        &-address
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            width: 250px
+            i
+                margin-right: 10px
+                width: 32px
+                height: 32px
+            .item
+                display: flex
+                align-items: center
+                color: #18191F
+                margin-left: 10px
+                font-size: 16px
+                text-align: center
+                vertical-align: middle
+                text-decoration: none
+                color: #18191F
+                &:hover
+                    font-weight: 600
+
+
+.modal
+    position: fixed
+    overflow: auto
+    left: 0
+    top: 0
+    background-color: rgba(0, 0, 0, 0.6)
+    width: 100vw
+    height: 100vh
+    display: none
+    justify-content: center
+    align-items: center
+    z-index: 3
+    &__close
+        position: absolute
+        right: 20px
+        top: 15px
+        font-size: 25px
+        &:hover
+            cursor: pointer
+    &__title
+        margin: 0 auto
+        text-align: right
+    &__window
+        position: relative
+        padding: 25px
+        display: block
+        width: 500px
+        height: 500px
+        border-radius: 10px
+        background: linear-gradient(90deg, #474A57 0%, rgba(255, 205, 131, 0) 51.54%, rgba(255, 187, 85, 0) 100%), #FE9A22
+        &-form
+            margin-top: 40px
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            justify-content: space-between
+            height: 150px
+.mail
+    height: 40px
+    width: 200px
+    border-radius: 5px
+    border: none
+    outline: none
+    padding-left: 10px
+.name
+    height: 40px
+    width: 200px
+    border-radius: 5px
+    border: none
+    outline: none
+    padding-left: 10px
+.button
+    height: 30px
+    width: 100px
+    border-radius: 5px
+    border: none
+    outline: none
+    background-color: rgba(41, 41, 42, 0.8)
+    color: #fff 
+    &:hover
+        box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 0.8)
+.active
+    display: flex
